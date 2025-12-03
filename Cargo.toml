@@ -1,0 +1,12 @@
+[package]
+name = "clock_tower"
+version = "0.1.0"
+edition = "2024"
+description = "A thread-safe utility to measure the execution time of expressions and blocks, storing results in a global registry."
+license = "GPL-3.0-only"
+repository = "https://github.com/yourusername/clock_tower"
+readme = "README.md"
+
+[dependencies]
+dashmap = "6.1.0"
+once_cell = "1.21.3"
