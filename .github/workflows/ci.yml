@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: rust-lang/setup-rust@v1
+      - uses: dtolnay/rust-toolchain@stable
         with:
           toolchain: stable
       - name: Run tests
